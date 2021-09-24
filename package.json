@@ -1,0 +1,23 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smattison0830/react-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smattison0830/react-project/issues"
+  },
+  "homepage": "https://github.com/Smattison0830/react-project#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
