@@ -16,6 +16,6 @@ const Pet = (props) => {
       <h3>{props.breed}</h3>
     </div>
   );
-};
+}
 
 export default Pet;
