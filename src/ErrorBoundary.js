@@ -10,10 +10,7 @@ class ErrorBoundary extends Component {
     console.error("ErrorBoundary caught an error", error, info);
     setTimeout(() => this.setState({ redirect: true}), 5000)
   }
-  componentDidUpdate () {
-      if (this.state.hasError) {
-      }
-  }
+
   render() {
     if (this.state.redirect) {
         return <Redirect to="/" />
